@@ -12,7 +12,7 @@
       "database_name": "kuesioner-db",
       // Ganti dengan Database ID asli: Workers & Pages > D1 > kuesioner-db
       // > halaman overview-nya, ada tulisan "Database ID".
-      "database_id": "ISI_DATABASE_ID_DI_SINI"
+      "database_id": "802365d9-9333-4933-8f0c-a59dc2c8a6ba"
     }
   ]
 }
