@@ -1,0 +1,18 @@
+{
+  // Nama ini HARUS persis "kpma" supaya deploy menimpa worker yang sudah
+  // ada (URL kpma.posisimasyarakatadat.workers.dev tetap sama), bukan
+  // bikin worker baru.
+  "name": "kpma",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-03",
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kuesioner-db",
+      // Ganti dengan Database ID asli: Workers & Pages > D1 > kuesioner-db
+      // > halaman overview-nya, ada tulisan "Database ID".
+      "database_id": "ISI_DATABASE_ID_DI_SINI"
+    }
+  ]
+}
